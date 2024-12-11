@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head> 
+  <meta charset="utf-8">
+  <title>Portfolio Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Instrument+Sans:wght@400;700&family=Nunito+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+   
+  <style> 
+  body {
+    margin: 0;
+    background: black;
+    font-family: "Nunito Sans", sans-serif;
+
+   }
+    
+  /* NAV BAR */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background: black;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+
+    li {
+      float: right;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      color: #ADBCC3;
+    }
+
+    .active {
+      background-color: #ADBCC3;
+    }
+  
+  /* HOMEPAGE TITLE */
+    
+   .content {
+      min-height: 50vh;
+      background: linear-gradient(to top, #FFFFFF 0%, #ADBCC3 100%); 
+      color: black; 
+      padding: 60px;
+      margin-top: 0px;
+     
+    }
+    
+    .title {
+      padding: 60px;
+      margin-top: 100px; /* Moves the content down */
+      color: white;
+      font-family: "Instrument Sans", sans-serif;
+    }
+    
+    .content p{
+      line-height: 1.1;
+      font-size: 40px;
+      font-family: "Instrument Sans",  sans-serif;
+    }
+    
+  </style>
+</head>
+  
+<body>
+  <ul>
+    <li><a href="home">home</a></li>
+    <li><a href="#aboutme">about</a></li>
+    <li><a href="#mywork">my work</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+  
+<div class="title">
+    <h2 style="font-size: 110px;"> Hello, I'm Arabella</h2>
+  </div>
+
+<div class="content">
+  <p style="font-size: 40px;"> A creative enthusiast with a deep passion for digital <br>
+  design. Dedicated to creating engaging contect that <br> tells engaging stories.</p>
+  </div>
+</body>
+</html>
